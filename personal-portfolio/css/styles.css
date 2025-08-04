@@ -1,8 +1,22 @@
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    top: -15px;
+}
+header {
+    padding: 4px 0 8px 0;
+}
+
+
 header {
     background: #ccc8b8;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 6px 0 2px ;
     text-align: center;
 }
 
@@ -143,7 +157,7 @@ input[type="submit"]:hover {
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     box-shadow: 0 0 15px rgba(16, 106, 202, 0.3);
     transition: transform 0.3s ease;
 }
@@ -155,10 +169,10 @@ input[type="submit"]:hover {
 
 section {
     max-width: 900px; /* limit the width of sections */
-    margin: 30px auto;
+    margin: 16px auto;
     background: var(--white);
     border-radius: 10px;
-    padding: 30px; /* add padding for better spacing */
+    padding: 16px 20px; /* add padding for better spacing */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -205,13 +219,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 6px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 section:first-of-type {
-    margin-top: 10px;
+    margin-top: 0;
 }
 header {
     background: #ccc8b8;
