@@ -1,0 +1,253 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    top: -15px;
+}
+header {
+    padding: 4px 0 8px 0;
+}
+
+
+header {
+    background: #ccc8b8;
+    color: #ffffff;
+    padding: 6px 0 2px ;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #35424a;
+}
+
+.skills, .background, .achievements {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+header nav ul li {
+    display: inline;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+
+.profile-pic {
+    width: 250px;        /* adjust size as needed */
+    height: 250px;       /* keep it the same as width for a perfect circle */
+    border-radius: 80%;  /* this makes it round */
+    object-fit: cover;   /* ensures it doesn't stretch */
+    display: block;
+    margin: 0 auto;      /* centers the image horizontally */
+}
+
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+    --white: #ffffff;
+}
+
+
+a {
+    color: var(--primary-color);  /* primary color for links and stand out */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header nav ul {
+    justify-content: center;
+    align-items: center;
+    background-color: oklab(91.071% -0.01942 0.00526); /* Removed transparency */
+    padding: 10px;
+    border-radius: 8px;
+    
+    display: flex;
+    gap: 1.5rem; /* space between links */
+
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: #111111;            /* Darker color for readability */
+    font-weight: 600;          /* Makes it bolder */
+    font-size: 1rem;           /* Adjust size as needed */
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #007bff;            /* Bright hover color */
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 15px rgba(16, 106, 202, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+
+section {
+    max-width: 900px; /* limit the width of sections */
+    margin: 16px auto;
+    background: var(--white);
+    border-radius: 10px;
+    padding: 16px 20px; /* add padding for better spacing */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .header-info {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    form input, form textarea {
+        font-size: 1rem;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+    padding: 10px;
+}
+
+section:first-of-type {
+    margin-top: 0;
+}
+header {
+    background: #ccc8b8;
+    color: #ffffff;
+    padding: 20px 0 10px 0; /* Reduce bottom padding */
+    text-align: center;
+    margin-bottom: 0;        /* Ensure there's no extra margin */
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header nav {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
